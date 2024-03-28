@@ -11,6 +11,6 @@ export class DataService {
 
 
   getAllstudents(){
-    return this.http.get('http://localhost:3001/monitoring_platform')  
+    return this.http.get('http://localhost:3003/monitoring_platform')  
   }
 }

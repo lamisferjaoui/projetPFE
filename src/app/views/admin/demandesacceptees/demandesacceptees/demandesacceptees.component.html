@@ -1,0 +1,45 @@
+<div class="container-fluid">
+
+    
+                
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Demandes Acceptées</h6>
+        </div>
+        <div class="card-body">
+            
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                   
+                    <tbody>
+                        <tr *ngFor="let item ">
+                            <td>{{item.firstname}}Tiger Nixon</td>
+                            <td>{{item.lastname}}System Architect</td>
+                            <td>{{item.age}}Edinburgh</td>
+                            <td>{{item.phone}}61</td>
+                            <td>{{item.email}}2011/04/25</td>
+                            <td>
+                                <button class="btn btn-primary">Details</button>
+                                <button class="btn btn-primary">Delete</button>
+                            </td>
+                        </tr>
+                      
+                      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
